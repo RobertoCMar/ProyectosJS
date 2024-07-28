@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora </title>
+</head>
+<body>
+    <div id="container">
+            <div id="ans-container">
+                    0000
+            </div>
+            <div id="boton-container"> 
+                <ul class="control-container">
+                    <button class="boton control" onclick="problema.delet()"> &lAarr; </button>
+                    <button class="boton control" onclick="problema.clean()"> C </button>
+                </ul>
+                    <br>
+                    <button class="boton" onclick="instanciar('7')"> 7 </button>
+                    <button class="boton" onclick="instanciar('8')"> 8 </button>
+                    <button class="boton" onclick="instanciar('9')"> 9 </button>
+                    <button class="boton" onclick="instanciar('*')"> * </button>
+                    <br>
+                    <button class="boton" onclick="instanciar('4')"> 4 </button>
+                    <button class="boton" onclick="instanciar('5')"> 5 </button>
+                    <button class="boton" onclick="instanciar('6')"> 6 </button>
+                    <button class="boton" onclick="instanciar('/')"> / </button>
+                    <br>
+                    <button class="boton" onclick="instanciar('1')"> 1 </button>
+                    <button class="boton" onclick="instanciar('2')"> 2 </button>
+                    <button class="boton" onclick="instanciar('3')"> 3 </button>
+                    <button class="boton" onclick="instanciar('+')"> + </button>
+                    <br>
+                    <button class="boton" onclick="instanciar('0')"> 0 </button>
+                    <button class="boton" onclick="instanciar('.')"> . </button>
+                    <button class="boton" onclick="problema.calcular()"> = </button>
+                    <button class="boton" onclick="instanciar('-')"> - </button>
+            </div>
+    </div>
+    
+    <script type="application/javascript" src="main.js"> </script>
+</body>
+</html>
